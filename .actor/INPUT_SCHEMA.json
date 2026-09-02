@@ -1,0 +1,39 @@
+{
+  "title": "Locanto India Classifieds Scraper Input",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "category": {
+      "title": "Category",
+      "type": "string",
+      "description": "Category to scrape",
+      "enum": ["cars-bikes", "jobs", "real-estate", "services", "community", "personals"],
+      "default": "cars-bikes",
+      "editor": "select"
+    },
+    "city": {
+      "title": "City",
+      "type": "string",
+      "description": "City to scrape (e.g., delhi, mumbai, bangalore)",
+      "default": "delhi",
+      "editor": "textfield"
+    },
+    "maxResults": {
+      "title": "Max Results",
+      "type": "integer",
+      "description": "Maximum number of listings to extract",
+      "default": 50,
+      "minimum": 1,
+      "maximum": 500,
+      "editor": "number"
+    },
+    "proxyConfiguration": {
+      "title": "Proxy Configuration",
+      "type": "object",
+      "description": "Apify Proxy settings",
+      "editor": "proxy",
+      "default": {}
+    }
+  },
+  "required": []
+}
