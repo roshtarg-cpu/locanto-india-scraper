@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Locanto India Classifieds Listing",
+  "description": "Schema for Locanto India classified ad listing",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "Ad title/heading"
+    },
+    "price": {
+      "type": "string",
+      "description": "Listed price or 'N/A'"
+    },
+    "location": {
+      "type": "string",
+      "description": "Location/city of the listing"
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Full URL to the listing"
+    },
+    "scrapedAt": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp when data was scraped"
+    }
+  },
+  "required": ["title", "url"]
+}

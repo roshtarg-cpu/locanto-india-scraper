@@ -1,0 +1,18 @@
+{
+  "actorSpecification": 1,
+  "name": "locanto-india-scraper",
+  "title": "Locanto India Classifieds Scraper",
+  "version": "1.0",
+  "description": "Extract classified listings from Locanto India - cars, bikes, jobs, real estate, services. Fast Playwright-powered scraper with proxy support.",
+  "categories": ["ECOMMERCE"],
+  "storefront": {
+    "promoImages": true,
+    "pictureUrl": "",
+    "logoUrl": "",
+    "seoTitle": "Locanto India Classifieds Scraper - Cars, Jobs, Real Estate",
+    "seoDescription": "Extract classified ads from Locanto India. Scrape cars, bikes, jobs, real estate listings with structured JSON output. Proxy support included. Compatible with Claude, ChatGPT & AI agents via Apify MCP."
+  },
+  "dockerfile": "./Dockerfile",
+  "input": "./INPUT_SCHEMA.json",
+  "outputSchema": "./output_schema.json"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "locanto-india-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Scraper for Locanto India classifieds - cars, bikes, jobs, real estate",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "apify": "^3.1.0",
+    "crawlee": "^3.5.0",
+    "playwright": "^1.40.0"
+  },
+  "author": "roshtarg",
+  "license": "MIT"
+}
