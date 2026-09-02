@@ -13,6 +13,6 @@
     "seoDescription": "Extract classified ads from Locanto India. Scrape cars, bikes, jobs, real estate listings with structured JSON output. Proxy support included. Compatible with Claude, ChatGPT & AI agents via Apify MCP."
   },
   "dockerfile": "./Dockerfile",
-  "input": "./.actor/INPUT_SCHEMA.json",
+  "input": "./INPUT_SCHEMA.json",
   "outputSchema": "./output_schema.json"
 }
